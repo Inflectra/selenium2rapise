@@ -20,3 +20,23 @@ An empty test will be created.
 <img alt="Test Diagram" src="https://github.com/Inflectra/selenium2rapise/raw/master/Media/S2REmptyTest.png" width="470"/>
 
 Put your code into `Test` function.
+
+## Porting from Selenium
+
+Example of ported code is inside `Selenium2Rapise.js`.
+
+Rapise has support for the following classes:
+
+- WebDriver
+- WebElement
+- Capabilities
+
+Implementation is located at 
+
+```
+c:\Program Files (x86)\Inflectra\Rapise\Core\Engine\Lib\LibSelenium 
+```
+
+## Sample Test
+
+This repository contains a sample test that should work out-of-the-box. Clone the repository and open `Selenium2Rapise.sstest` in Rapise and you are ready to go.
